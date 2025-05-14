@@ -10,6 +10,7 @@ public class JavaExercisesTest {
     @Test
     @Order(0)
     @DisplayName("Test makeDice correctness")
+
     public void testMakeDice() {
         int[] dice = JavaExercises.makeDice();
         assertThat(dice).isNotNull();
