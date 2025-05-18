@@ -1,2 +1,3 @@
-public class LinkedListDeque61B {
+public class LinkedListDeque61B<T> {
+
 }
